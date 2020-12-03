@@ -33,7 +33,7 @@ namespace infraestructura.Repositorios
                 Nombres = $"Nombre{x}",
                 Apellidos = $"Apellido{x}",
                 Fechaingreso = DateTime.Now,
-                Telefono= $"Descripcion del cliente {x}",
+                Telefono= $"Descripcion del cliente {x + x}",
                 Id = 3,
                 //Facturas = new Core.entidades.FacturaEntidad, 
             });
